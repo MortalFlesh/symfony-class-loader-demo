@@ -1,13 +1,13 @@
 <?php
 
-require_once __DIR__ . '/vendor/Symfony/class-loader/Psr4ClassLoader.php';
+require_once __DIR__ . '/vendor/Symfony/class-loader/ClassLoader.php';
 
-use Symfony\Component\ClassLoader\Psr4ClassLoader;
 use MF\App;
-use MF\Render;
+use MF\Render\Render;
+use Symfony\Component\ClassLoader\ClassLoader;
 
-$loader = new Psr4ClassLoader();
-$loader->addPrefix('MF', __DIR__ . '/src');
+$loader = new ClassLoader();
+$loader->addPrefix('MF', __DIR__ . '/src_psr0');
 $loader->register();
 
 $app = new App(new Render());
