@@ -6,5 +6,7 @@
             "email": "petr.chromec@lmc.eu"
         }
     ],
-    "require": {}
+    "require": {
+        "symfony/class-loader": "^3.0"
+    }
 }
