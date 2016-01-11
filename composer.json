@@ -1,0 +1,10 @@
+{
+    "name": "mf/symfony-class-loader-demo",
+    "authors": [
+        {
+            "name": "Petr Chromec",
+            "email": "petr.chromec@lmc.eu"
+        }
+    ],
+    "require": {}
+}
