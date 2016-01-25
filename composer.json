@@ -6,6 +6,11 @@
             "email": "petr.chromec@lmc.eu"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "MF\\": "src/"
+        }
+    },
     "require": {
         "symfony/class-loader": "^3.0"
     }
