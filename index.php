@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/vendor/symfony/class-loader/ClassLoader.php';
 
 use MF\App;
 use MF\Render\Render;
